@@ -117,6 +117,7 @@ def print_banner() -> None:
        |_|
     """
   )
+  print("Made with AI")
 
 
 def print_recommendations(seed: str) -> None:

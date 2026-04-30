@@ -1,8 +1,10 @@
 # SpotiTerm
 
+[![Made with AI](https://img.shields.io/badge/Made%20with-AI-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://github.com/kirodev2277-max/spotify-in-terminal)
+
 A cool terminal Spotify companion that works on Windows, Arch Linux, Ubuntu/Debian, Fedora, openSUSE, other Linux distros, macOS, and WSL.
 
-It searches Spotify from your terminal and opens the result in your default browser.
+Made with AI. It searches Spotify from your terminal and opens the result in your default browser.
 
 ## Features
 
@@ -134,6 +136,21 @@ Run directly without installing:
 ```bash
 python -m spotiterm "workout mix"
 ```
+
+## Ideas / Roadmap
+
+Stuff that would make this even cooler:
+
+- Add a full-screen terminal UI with arrow-key navigation
+- Add Spotify OAuth so it can control playback, pause, skip, and save tracks
+- Show album art as terminal ASCII art
+- Add a mini playlist generator by mood, distro, or coding language
+- Add a `spotiterm lyrics` command
+- Add Discord rich presence for terminal listening sessions
+- Add package releases for `pipx`, Homebrew, Scoop, AUR, Flatpak, and Snap
+- Add themes like Matrix, cyberpunk, retro green terminal, and Spotify classic
+- Add offline favorite searches saved in a local config file
+- Add shell completions for Bash, Zsh, Fish, and PowerShell
 
 ## Development
 

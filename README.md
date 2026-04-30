@@ -15,6 +15,31 @@ It searches Spotify from your terminal and opens the result in your default brow
 
 ## Install
 
+Clone the repo first:
+
+```bash
+git clone https://github.com/kirodev2277-max/spotify-in-terminal.git
+cd spotify-in-terminal
+```
+
+The old command `python -m pip install .` is normal Python packaging syntax: the dot means "install the current folder." If you do not want to type that, use the scripts below.
+
+### Easiest install
+
+Windows PowerShell:
+
+```powershell
+.\scripts\install.ps1
+spotiterm "night drive"
+```
+
+Linux/macOS:
+
+```bash
+bash scripts/install.sh
+spotiterm "night drive"
+```
+
 ### Windows
 
 Install Python:
@@ -26,7 +51,7 @@ winget install Python.Python.3.12
 Then run:
 
 ```powershell
-python -m pip install .
+.\scripts\install.ps1
 spotiterm "night drive"
 ```
 
@@ -34,7 +59,7 @@ spotiterm "night drive"
 
 ```bash
 sudo pacman -S python xdg-utils
-python -m pip install .
+bash scripts/install.sh
 spotiterm "arch linux coding playlist"
 ```
 
@@ -43,7 +68,7 @@ spotiterm "arch linux coding playlist"
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip xdg-utils
-python3 -m pip install .
+bash scripts/install.sh
 spotiterm "lofi beats"
 ```
 
@@ -51,7 +76,7 @@ spotiterm "lofi beats"
 
 ```bash
 sudo dnf install python3 python3-pip xdg-utils
-python3 -m pip install .
+bash scripts/install.sh
 spotiterm "focus flow"
 ```
 
@@ -59,7 +84,7 @@ spotiterm "focus flow"
 
 ```bash
 sudo zypper install python3 python3-pip xdg-utils
-python3 -m pip install .
+bash scripts/install.sh
 spotiterm "synthwave"
 ```
 
@@ -68,7 +93,7 @@ spotiterm "synthwave"
 Install Python 3.10+ and `xdg-utils` with your distro package manager, then:
 
 ```bash
-python3 -m pip install .
+bash scripts/install.sh
 spotiterm "terminal music"
 ```
 
